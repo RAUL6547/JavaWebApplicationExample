@@ -19,8 +19,8 @@ public class MyServlet extends HttpServlet {
 		out.println("<html lang=es>");
 		out.println("<head><title>HTML desde Servlet</title></head>");
 		out.println("<body>");
-		out.println("<h1 style='color:blue;'>Servlet</h1>");
-		out.println("<h3><b>HTML desde Servlet</b></h3>");
+		out.println("<h1 style='color:blue;'>My Servlet</h1>");
+		out.println("<h2><b>Ejemplo HTML desde Servlet</b></h2>");
 		out.println("<form action='/myServlet2'>");
 		out.println("<label for='nombre'" + request.getParameter("nombre") + ">Nombre:</label><br>");
 		out.println("<input type='text' id='nombre' name='nombre' value='' placeholder='Nombre'><br><br>");
